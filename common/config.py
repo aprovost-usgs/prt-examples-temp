@@ -98,14 +98,3 @@ if sys.platform.lower() == "win32":
     soext = ".dll"
 if sys.platform.lower() == "darwin":
     soext = ".dylib"
-
-# paths to executables
-mf6_exe = os.path.abspath(os.path.join("..", "bin", "mf6" + eext))
-libmf6_exe = os.path.abspath(os.path.join("..", "bin", "libmf6" + soext))
-mf2005_exe = os.path.abspath(os.path.join("..", "bin", "mf2005" + eext))
-mf2005dbl_exe = os.path.abspath(os.path.join("..", "bin", "mf2005dbl" + eext))
-mfnwt_exe = os.path.abspath(os.path.join("..", "bin", "mfnwt" + eext))
-mt3dms_exe = os.path.abspath(os.path.join("..", "bin", "mt3dms" + eext))
-mt3dusgs_exe = os.path.abspath(os.path.join("..", "bin", "mt3dusgs" + eext))
-mp7_exe = os.path.abspath(os.path.join("..", "bin", "mp7" + eext))
-gridgen_exe = os.path.abspath(os.path.join("..", "bin", "gridgen" + eext))
